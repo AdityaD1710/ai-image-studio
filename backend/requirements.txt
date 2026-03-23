@@ -1,0 +1,19 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+websockets==12.0
+celery==5.3.6
+redis==5.0.4
+diffusers==0.27.2
+transformers==4.40.1
+accelerate==0.30.0
+controlnet-aux==0.0.7
+segment-anything==1.0
+huggingface_hub==0.20.3
+Pillow==10.3.0
+numpy==1.26.4
+python-multipart==0.0.9
+pydantic-settings==2.2.1
+python-dotenv==1.0.1
+bitsandbytes==0.43.1   # 4-bit quantization
+torch==2.2.2          # CPU version — no CUDA needed
+torchvision==0.17.2

@@ -1,0 +1,27 @@
+# Python virtual environments
+venv/
+.venv/
+backend/venv311/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+
+# Node modules and frontend build outputs
+frontend/node_modules/
+frontend/dist/
+
+# Local model weights and generated outputs
+storage/weights/
+storage/outputs/
+storage/masks/
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
